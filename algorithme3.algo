@@ -1,0 +1,26 @@
+function dotProduct(v1, v2)
+var dotProduct = 0 : integer
+	for(i in a)
+	
+		dotProduct += a[i] * b[i]
+	i:whole
+    p:reel
+ALGORITHM  dot_product
+VAR
+v1 (4):integer
+v2 (4):integer
+
+    BEGIN
+    for i <-- 0 to 1 do
+    write('giv the element' , i+1 , "of v1")
+    reade (v1(i))
+
+    write('giv the element' , i+1 , "of v2")
+    reade (v2(i))
+    END do
+    p<--0 
+    for p<--0 to 2 do
+    p<-- p+v1(i)*v2(i)
+    end do
+    write (" the dot product of v1 and v2 :",p)
+    end
